@@ -15,7 +15,7 @@ RUN node --version
 RUN npm set progress=false
 RUN npm install
 # The following install will hit error
-RUN npm install --verbose fsevents
+# RUN npm install -g --verbose fsevents
 
 EXPOSE 3000
 
