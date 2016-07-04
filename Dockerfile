@@ -17,6 +17,6 @@ RUN npm install
 # The following install will hit error
 # RUN npm install -g --verbose fsevents
 
-EXPOSE 3000
+EXPOSE 3000 8000 8080
 
 CMD npm start
